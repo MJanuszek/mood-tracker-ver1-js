@@ -4,13 +4,17 @@
   box-sizing: border-box;
 }
 
-.wrapper,
-.emotions-container {
+body {
   background-image: url("./assets/ray-mallick-5J1bHRX1fNw-unsplash.jpg");
-  height: 100vh;
-  width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.wrapper,
+.emotions-container {
+  height: 100vh;
+  width: 100vw;
+
   display: flex;
   justify-content: center;
 }
@@ -58,7 +62,7 @@
 
 .mood {
   height: 7vh;
-  width: 30vw;
+  width: 50vw;
   background-color: white;
   border: 2px solid black;
   font-size: 2em;

@@ -5,7 +5,7 @@ let moodHistory = document.getElementById("history");
 
 const moods = [];
 let currentPage = 1;
-const itemsPerPage = 6;
+const itemsPerPage = 5;
 
 // -----------
 function saveMood(event) {
@@ -32,7 +32,7 @@ function displayMoods() {
   paginatedItems.map((data) => {
     let moodDiv = document.createElement("div");
     moodDiv.classList.add("mood");
-    moodDiv.textContent = `${data.mood} on ${data.date}`;
+    moodDiv.textContent = `You felt ${data.mood} on ${data.date}`;
     moodHistory.appendChild(moodDiv);
   });
 }
