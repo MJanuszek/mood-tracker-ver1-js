@@ -8,38 +8,44 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="emotion">
-        <h3>Happy</h3>
-        <img
-          class="emo-icon"
-          src="./assets/3094820_emoji_emoticon_happy_satisfacted_smile_icon.png"
-          alt="happy-face"
-        />
+      <div class="emotions-container">
+        <div class="emotion" id=" happy">
+          <h3>Happy</h3>
+          <img
+            class="emo-icon"
+            src="./assets/3094820_emoji_emoticon_happy_satisfacted_smile_icon.png"
+            alt="happy-face"
+          />
+        </div>
+        <div class="emotion" id="sad">
+          <h3>Sad</h3>
+          <img
+            class="emo-icon"
+            src="./assets/3094834_crying_emoji_emoticon_sad_tears_icon.png"
+            alt="sad-face"
+          />
+        </div>
+        <div class="emotion" id=" love">
+          <h3>In Love</h3>
+          <img
+            class="emo-icon"
+            src="./assets/3094839_emoji_emoticon_eyes_happy_heart_icon.png"
+            alt="love-face"
+          />
+        </div>
+        <div class="emotion" id=" anxious">
+          <h3>Anxious</h3>
+          <img
+            class="emo-icon"
+            src="./assets/3094838_anime_emoji_emoticon_manga_omg_icon.png"
+            alt="anxious-face"
+          />
+        </div>
       </div>
-      <div class="emotion">
-        <h3>Sad</h3>
-        <img
-          class="emo-icon"
-          src="./assets/3094834_crying_emoji_emoticon_sad_tears_icon.png"
-          alt="sad-face"
-        />
-      </div>
-      <div class="emotion">
-        <h3>In Love</h3>
-        <img
-          class="emo-icon"
-          src="./assets/3094839_emoji_emoticon_eyes_happy_heart_icon.png"
-          alt="love-face"
-        />
-      </div>
-      <div class="emotion">
-        <h3>Anxious</h3>
-        <img
-          class="emo-icon"
-          src="./assets/3094838_anime_emoji_emoticon_manga_omg_icon.png"
-          alt="anxious-face"
-        />
-      </div>
+
+      <div class="mood-history" id="history"></div>
+      <button class="paginaion-btn" id="next-page">NEXT</button>
+      <button class="paginaion-btn" id="prev-page">PREV</button>
     </div>
 
     <script src="main.js"></script>

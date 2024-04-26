@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-.wrapper {
+.wrapper,
+.emotions-container {
   background-image: url("./assets/ray-mallick-5J1bHRX1fNw-unsplash.jpg");
   height: 100vh;
   width: 100vw;
@@ -12,7 +13,10 @@
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+.wrapper {
+  flex-direction: column;
 }
 
 .wrapper h3 {
@@ -30,6 +34,7 @@
   max-height: 290px;
   padding: 30px;
   border-radius: 50%;
+  margin-top: 10vh;
 }
 
 .emotion:hover {
@@ -39,4 +44,30 @@
 .emo-icon {
   height: 200px;
   width: 200px;
+}
+
+.mood-history {
+  height: 60vh;
+
+  flex-direction: column;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.mood {
+  height: 7vh;
+  width: 30vw;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 2em;
+  border-radius: 22px;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+.paginaion-btn {
+  font-size: 3em;
+  max-width: 200px;
 }
