@@ -5,5 +5,38 @@
 }
 
 .wrapper {
-  background-image: url();
+  background-image: url("./assets/ray-mallick-5J1bHRX1fNw-unsplash.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper h3 {
+  margin-top: 3vh;
+  font-size: 2em;
+}
+
+.emotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 5vw;
+  background-color: #fff;
+  max-height: 290px;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+.emotion:hover {
+  background-color: #ffd7d7;
+}
+
+.emo-icon {
+  height: 200px;
+  width: 200px;
 }
